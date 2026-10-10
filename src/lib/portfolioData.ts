@@ -1,0 +1,111 @@
+import { PortfolioItem } from '../types';
+
+export const portfolioData: PortfolioItem[] = [
+  {
+    id: 'p1',
+    title: 'Vortex Quantum: Next.js 14 AI Analytics Platform',
+    client: 'Vortex Analytics Corp',
+    category: 'Web Development',
+    imageUrl: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80',
+    summary: 'A sub-second enterprise analytics dashboard with interactive WebGL node visualizers, dark/light themes, and real-time streaming data.',
+    deliverables: ['Custom Next.js App Router Architecture', 'Three.js 3D Visualizer', 'Tailwind Design System', 'Supabase Real-time Sync'],
+    results: '0.3s page load, 99 Lighthouse score, 14,000 active daily engineers',
+    year: '2024',
+    liveUrl: 'https://vortex-quantum.example.com',
+    technologies: ['Next.js 14', 'TypeScript', 'Tailwind CSS', 'Three.js', 'Framer Motion'],
+    featured: true
+  },
+  {
+    id: 'p2',
+    title: 'Solstice Luxury Brand Identity & Packaging',
+    client: 'Solstice Botanical Spirits',
+    category: 'Graphic Design',
+    imageUrl: 'https://images.unsplash.com/photo-1527061011665-3652c757a4d4?auto=format&fit=crop&w=1200&q=80',
+    summary: 'Complete brand ecosystem including bespoke serif typography, embossed bottle label design, sustainable packaging, and digital style guides.',
+    deliverables: ['Master Brand Identity Book', 'Custom Glass Bottle Die-lines', 'E-commerce Asset Kit', 'Figma Component Tokens'],
+    results: 'Featured in Dieline awards, 340% increase in boutique retail orders',
+    year: '2024',
+    liveUrl: 'https://solstice-botanicals.example.com',
+    technologies: ['Figma', 'Adobe Illustrator', 'Cinema 4D (Mockups)', 'Packaging Print Production'],
+    featured: true
+  },
+  {
+    id: 'p3',
+    title: 'Aura Health: Mobile Telemedicine Native App',
+    client: 'Aura Telehealth Global',
+    category: 'Web Development',
+    imageUrl: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1200&q=80',
+    summary: 'Cross-platform React Native patient app featuring encrypted WebRTC video visits, digital prescription management, and Apple HealthKit integration.',
+    deliverables: ['React Native Mobile App', 'HIPAA-compliant Video Gateway', 'Design System & Haptics', 'App Store / Play Store Deploy'],
+    results: '4.9/5 stars across 18,000 App Store reviews, 52k consultations booked',
+    year: '2024',
+    liveUrl: 'https://aura-telehealth.example.com',
+    technologies: ['React Native', 'TypeScript', 'WebRTC', 'Tailwind CSS', 'Node.js'],
+    featured: true
+  },
+  {
+    id: 'p4',
+    title: 'Zenith Velocity: 4.8M View Viral Short-Form Campaign',
+    client: 'Zenith Performance Gear',
+    category: 'Video & Social',
+    imageUrl: 'https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=1200&q=80',
+    summary: 'Series of 24 high-retention vertical reels combining 3D product explodes, kinetic typography, and pulse-raising sound design.',
+    deliverables: ['24 Short-form 9:16 Video Assets', 'Custom Kinetic Font Engine', 'Original Sound Design & Mix', 'TikTok & Reels Growth Strategy'],
+    results: '4.8M organic views, 48,000 shares, 3.9x return on ad spend',
+    year: '2024',
+    technologies: ['DaVinci Resolve', 'After Effects', 'Blender 3D', 'Ableton Live'],
+    featured: false
+  },
+  {
+    id: 'p5',
+    title: 'Hyperion Capital: $1.4M ARR AI Ad Scaling Engine',
+    client: 'Hyperion FinTech',
+    category: 'Marketing Campaigns',
+    imageUrl: 'https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1200&q=80',
+    summary: 'Autonomous AI-managed multi-channel acquisition engine across Google Search, Performance Max, and Meta Ads with predictive attribution.',
+    deliverables: ['Predictive LTV Audience Models', 'Meta CAPI Server Integration', 'Continuous A/B Creative Testing', 'Executive BI Dashboard'],
+    results: '42% lower CAC, 4.8x blended ROAS, $1.4M in new verified pipeline',
+    year: '2024',
+    technologies: ['Google Ads API', 'Meta Conversions API', 'Looker Studio', 'Python Modeling'],
+    featured: true
+  },
+  {
+    id: 'p6',
+    title: 'Prism Cosmetics: Headless 3D Shopify Experience',
+    client: 'Prism Beauty Labs',
+    category: 'Web Development',
+    imageUrl: 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1200&q=80',
+    summary: 'A futuristic headless e-commerce store with real-time 3D shade match visualizer, instant cart slide-out, and localized multi-currency checkouts.',
+    deliverables: ['Headless Shopify + Next.js Frontend', '3D WebGL Shade Customizer', 'Dynamic Bundle Upsell Engine', 'Klaviyo Lifecycle Automation'],
+    results: '38% increase in conversion rate, 24% higher average order value',
+    year: '2024',
+    technologies: ['Shopify Storefront API', 'Next.js', 'Three.js', 'Tailwind CSS', 'Stripe'],
+    featured: false
+  },
+  {
+    id: 'p7',
+    title: 'Downtown Cyber Festival: Interactive 3D Digital Billboard & OOH Blitz',
+    client: 'CyberX Global Tour',
+    category: 'Marketing Campaigns',
+    imageUrl: 'https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=1200&q=80',
+    summary: 'High-impact interactive outdoor 3D digital display activation across 3 metropolitan downtowns featuring anamorphic motion screens and synchronized geofenced mobile retargeting.',
+    deliverables: ['Anamorphic 3D Motion Graphics', 'Interactive Pedestrian Screen Feed', 'Live Telemetry Dashboard', 'Geofenced Mobile Ad Blitz'],
+    results: '320,000 estimated street impressions, 14,000 QR scan visits',
+    year: '2024',
+    technologies: ['Anamorphic 3D Display', '4K Motion Graphics', 'Geofencing DSP', 'Real-time Telemetry'],
+    featured: false
+  },
+  {
+    id: 'p8',
+    title: 'Kinetix Studio: Kinetic Brand Identity & Motion System',
+    client: 'Kinetix Creative Lab',
+    category: 'Graphic Design',
+    imageUrl: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?auto=format&fit=crop&w=1200&q=80',
+    summary: 'A dynamic generative identity system with logo marks that morph in response to ambient audio and user cursor velocity across digital platforms.',
+    deliverables: ['Generative Vector Identity Mark', 'Interactive SVG Animation Library', 'Brand Typography Suite', 'Merchandise & Environmental Design'],
+    results: 'Red Dot Award shortlist, 50,000+ social design saves',
+    year: '2024',
+    technologies: ['Figma', 'Lottie / JSON Animations', 'GSAP', 'Illustrator'],
+    featured: false
+  }
+];
